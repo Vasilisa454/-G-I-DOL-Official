@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Kaushan+Script&family=Marck+Script&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 1080px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+}
+
+header nav {
+    position: relative;
+    float: left;
+    left: 20vw;
+}
+
+header nav ul {
+    list-style: none;
+    padding: auto;
+}
+
+header nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+header nav ul li a {
+    padding: 15px;
+    color: #D25887;
+    font-family: "Marck Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.active {
+    color: #580E8A;
+}
+
+.hero-container{
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li a:hover {
+    border-bottom: 5px solid #D9A6AD;
+}
+
+.hero--info {
+    margin-top: 200px;
+    text-align: center;
+    width: 1185px;
+    position: relative;
+    top: 0;
+    left: 150px;
+}
+
+.hero--info h1 {
+    color: #D25887;
+    font-size: 128px;
+    font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hero--info p {
+    color: #580E8A;
+    font-size: 32px;
+    position: relative;
+    top: 30px;
+    left: 0px;
+    font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+}
+
+.Minnie-albom {
+    font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  margin-top: 200px;
+}
+
+.Minnie-albom h1 {
+    color: #F1342E;
+    font-size: 64px;
+    position: relative;
+top: 0;
+left: 300px;
+}
+
+.Minnie-albom h2 {
+    color: #F1342E;
+    font-size: 48px;
+    width: 568px;
+    margin-top: 200px;
+    position: relative;
+top: 0;
+left: 750px;
+}
+
+.Minnie-albom p {
+    color: #580E8A;
+    font-size: 40px;
+    text-align: center;
+    width: 568px;
+    margin-top: 100px;
+    position: relative;
+top: 0;
+left: 750px;
+}
+
+.Minnie {
+    position: relative;
+    top: -470px;
+    left: 100px;
+}
+
+.Soyon h2{
+    font-size: 64px;
+    position: relative;
+    top:200px;
+    left: 650px;
+    font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+}
+
+.Soyon p{
+    width: 848px;
+    color: #580E8A;
+    font-size: 32px;
+    position: relative;
+    top:200px;
+    left: 600px;
+    margin-top: 50px;
+    font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+}
+
+.foto_Soyon {
+    position: relative;
+    top: -320px;
+    left: 80px;
+}
+
+.name h1{
+    color: #580E8A;
+    font-size: 64px;
+    position: relative;
+    top:150px;
+    left: 400px;
+    font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+}
+
+.Minni h2{
+    font-size: 64px;
+    position: relative;
+    top:-200px;
+    left: 650px;
+    font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+}
+
+.Minni p{
+    width: 848px;
+    color: #580E8A;
+    font-size: 32px;
+    position: relative;
+    top:-200px;
+    left: 600px;
+    margin-top: 50px;
+    font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+}
+
+.foto_Minni {
+    position: relative;
+    top: -750px;
+    left: 80px;
+}
+
