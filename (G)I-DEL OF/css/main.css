@@ -3,12 +3,6 @@
 body {
     margin: 0;
     padding: 0;
-    width: 1080px;
-}
-
-* {
-    margin: 0;
-    padding: 0;
 }
 
 a {
@@ -61,10 +55,9 @@ header nav ul li a {
 }
 
 .hero-container{
-    position: relative;
-    top: 100px;
     display: flex;
     justify-content: center;
+    padding: 102px 0 0;
 }
 
 header nav ul li a:hover {
@@ -72,12 +65,11 @@ header nav ul li a:hover {
 }
 
 .hero--info {
-    margin-top: 200px;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    width: 1185px;
-    position: relative;
-    top: 0;
-    left: 150px;
+    flex-direction: column;
+    padding: 0px 130px;
 }
 
 .hero--info h1 {
@@ -91,9 +83,6 @@ header nav ul li a:hover {
 .hero--info p {
     color: #580E8A;
     font-size: 32px;
-    position: relative;
-    top: 30px;
-    left: 0px;
     font-family: "Alegreya", serif;
   font-optical-sizing: auto;
 }
@@ -101,49 +90,54 @@ header nav ul li a:hover {
 .Minnie-albom {
     font-family: "Alegreya", serif;
   font-optical-sizing: auto;
-  margin-top: 200px;
+}
+
+.info-her{
+    font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
 }
 
 .Minnie-albom h1 {
     color: #F1342E;
     font-size: 64px;
-    position: relative;
-top: 0;
-left: 300px;
+    display: flex;
+    justify-content: center;
+    padding: 200px 0 0;
 }
 
-.Minnie-albom h2 {
+.info-her h2 {
     color: #F1342E;
     font-size: 48px;
     width: 568px;
-    margin-top: 200px;
-    position: relative;
-top: 0;
-left: 750px;
 }
 
-.Minnie-albom p {
+.info-her p {
     color: #580E8A;
     font-size: 40px;
     text-align: center;
     width: 568px;
-    margin-top: 100px;
-    position: relative;
-top: 0;
-left: 750px;
+}
+
+.info-her {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 150px 0 0;
+  float: right;
 }
 
 .Minnie {
-    position: relative;
-    top: -470px;
-    left: 100px;
+  display: flex;
+  padding: 0 0 0 100px;
+}
+
+.name{
+  display: flex;
+  justify-content: center;
+  padding: 150px 0 0 0;
 }
 
 .Soyon h2{
     font-size: 64px;
-    position: relative;
-    top:200px;
-    left: 650px;
     font-family: "Alegreya", serif;
   font-optical-sizing: auto;
 }
@@ -152,35 +146,31 @@ left: 750px;
     width: 848px;
     color: #580E8A;
     font-size: 32px;
-    position: relative;
-    top:200px;
-    left: 600px;
-    margin-top: 50px;
     font-family: "Alegreya", serif;
   font-optical-sizing: auto;
 }
 
+.Soyon{
+  display: flex;
+  flex-direction: column;
+  float: right;
+  padding: 0 75px 0 0;
+}
+
 .foto_Soyon {
-    position: relative;
-    top: -320px;
-    left: 80px;
+  display: flex;
+  padding: 150px 0 0 0;
 }
 
 .name h1{
     color: #580E8A;
     font-size: 64px;
-    position: relative;
-    top:150px;
-    left: 400px;
     font-family: "Alegreya", serif;
   font-optical-sizing: auto;
 }
 
 .Minni h2{
     font-size: 64px;
-    position: relative;
-    top:-200px;
-    left: 650px;
     font-family: "Alegreya", serif;
   font-optical-sizing: auto;
 }
@@ -189,17 +179,171 @@ left: 750px;
     width: 848px;
     color: #580E8A;
     font-size: 32px;
-    position: relative;
-    top:-200px;
-    left: 600px;
-    margin-top: 50px;
     font-family: "Alegreya", serif;
   font-optical-sizing: auto;
 }
 
-.foto_Minni {
-    position: relative;
-    top: -750px;
-    left: 80px;
+.Minni{
+  display: flex;
+  flex-direction: column;
+  float: right;
+  padding: 30px 75px 0 0;
 }
 
+.foto_Minni {
+  display: flex;
+  padding: 150px 0 0 0;
+}
+
+.Mion h2{
+    font-size: 64px;
+    font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+}
+
+.Mion p{
+    width: 848px;
+    color: #580E8A;
+    font-size: 32px;
+    font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+}
+
+.Mion{
+  display: flex;
+  flex-direction: column;
+  float: right;
+  padding: 30px 75px 0 0;
+}
+
+.foto_Mion{
+  display: flex;
+  padding: 100px 0 0 0;
+}
+
+.Yugi h2{
+    font-size: 64px;
+    font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+}
+
+.Yugi p{
+    width: 848px;
+    color: #580E8A;
+    font-size: 32px;
+    font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+}
+
+.Yugi{
+  display: flex;
+  flex-direction: column;
+  float: right;
+  padding: 30px 75px 0 0;
+}
+
+.foto_Yugi {
+  display: flex;
+  padding: 100px 0 0 0;
+}
+
+.Shu h2{
+    font-size: 64px;
+    font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+}
+
+.Shu p{
+    width: 848px;
+    color: #580E8A;
+    font-size: 32px;
+    font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+}
+
+.Shu{
+  display: flex;
+  flex-direction: column;
+  float: right;
+  padding: 30px 75px 0 0;
+}
+
+.foto_Shu {
+  display: flex;
+  padding: 100px 0 0 0;
+}
+
+.Frozen {
+    display: flex;
+    justify-content: center;
+    padding: 102px 0 0;
+}
+
+.centered {
+  position: absolute;
+    bottom: 80px;
+    left: 380px;
+}
+
+.centered {
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+}
+
+.centered{
+  color: #ffffff;
+    font-size: 96px;
+    display: flex;
+    justify-content: center;
+}
+
+.sorry {
+  color: #580e8a88;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.logoG {
+  display: flex;
+  justify-content: center;
+}
+
+.notshop{
+  color: #580e8a88;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  padding: 102px 0 0;
+}
+
+.shop{
+  display: flex;
+  justify-content: center;
+}
+
+.notnews {
+  color: #580e8a88;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  padding: 102px 0 0;
+}
+
+.New {
+  display: flex;
+  justify-content: center;
+}
+
+.Mus {
+  color: #580e8a88;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  padding: 102px 0 0;
+}
+
+.QR {
+  display: flex;
+  justify-content: center;
+}
